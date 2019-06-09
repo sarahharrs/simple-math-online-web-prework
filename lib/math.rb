@@ -1,27 +1,27 @@
-def addition(num1, num2)
- puts  num1+num2
+def addition(1, 2)
+ puts  1+2
 end
 
-def subtraction(num1, num2)
-  puts num1-num2
+def subtraction(2, 1)
+  puts 2-1
 end
 
-def division(num1, num2)
-  puts num1/num2
+def division(2, 1)
+  puts 2/1
 end
 
-def multiplication(num1, num2)
-  puts num1*num2
+def multiplication(2, 1)
+  puts 2* 1
 end
 
-def modulo(num1, num2)
-  num1 % num2
+def modulo(2, 1)
+  2 % 1
 end
 
-def square_root(num)
-  math.sqrt(num)
+def square_root(49)
+  math.sqrt(49)
 end
 
-def order_of_operation(num1, num2, num3, num4)
-  #Hint:  num1 + (( num2 * num3 ) / num4)
+def order_of_operation(1, 2, 3, 4)
+  puts 1+ (( 2 * 3 ) / 4)
 end
